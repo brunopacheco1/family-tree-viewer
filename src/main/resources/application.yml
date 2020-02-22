@@ -1,0 +1,12 @@
+---
+micronaut:
+  application:
+    name: familytreeviewer
+
+---
+#rabbitmq:
+#  uri: amqp://localhost:5672
+
+---
+neo4j:
+  uri: bolt://${NEO4J_HOST:localhost}
